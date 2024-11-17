@@ -17,7 +17,7 @@
   ],
   "author": "Mahesh Bogati",
   "license": "ISC",
-  "description": "",
+  "description": "Efficient multithreading in Node.js using worker threads",
   "dependencies": {
     "express": "^4.21.1"
   },
