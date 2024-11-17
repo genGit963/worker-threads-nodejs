@@ -22,11 +22,11 @@ The **worker-threads-nodejs** project demonstrates multithreading in Node.js usi
 
 ## 📚 Table of Contents
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [Examples](#examples)
-- [Project Structure](#project-structure)
-- [License](#license)
+- [🧵 worker-threads-nodejs](#-worker-threads-nodejs)
+  - [🚀 Features](#-features)
+  - [📚 Table of Contents](#-table-of-contents)
+  - [🛠️ Installation](#️-installation)
+  - [📂 Project Structure](#-project-structure)
 
 ---
 
@@ -35,4 +35,24 @@ The **worker-threads-nodejs** project demonstrates multithreading in Node.js usi
 ```bash
 # Clone the repository
 git clone https://github.com/yourusername/worker-threads-nodejs.git
+```
+
+---
+
+## 📂 Project Structure
+
+```plaintext
+worker-threads-nodejs/
+├── src/
+│   ├── workerManager.js     # Main worker manager class
+│   ├── workers/
+│   │   ├── taskWorker.js    # Worker script for handling tasks
+│   │   └── ...              # Additional worker files
+├── examples/
+│   ├── example1.js          # Basic usage example
+│   ├── example2.js          # Advanced example
+├── test/
+│   ├── workerManager.test.js # Unit tests for worker manager
+├── README.md
+└── package.json
 ```
